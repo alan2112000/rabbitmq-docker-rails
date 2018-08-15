@@ -1,0 +1,8 @@
+# dashboard/Rakefile
+require_relative 'config/environment'
+
+# run Rails.application
+# load sneakers tasks
+require 'sneakers/tasks'
+
+Rails.application.load_tasks
